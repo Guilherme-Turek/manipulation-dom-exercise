@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #2b385b;
+  position: relative;
+}
+
+header {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  top: 5%;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header > button {
+  margin: 10px;
+  width: 50%;
+  padding: 10px;
+  font-size: 12pt;
+}
+
+#container {
+  width: 100vw;
+  height: 50vh;
+  position: relative;
+  top: calc(50% - 25vh);
+  text-align: center;
+}
+
+.card {
+  width: 150px;
+  height: 200px;
+  padding: 30px;
+  margin: 20px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 30px;
+  box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.68);
+}
+
+.btn-edit {
+  background-color: #008000;
+  color: #ffffff;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn-erase {
+  background-color: #ff2525;
+  color: #ffffff;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
